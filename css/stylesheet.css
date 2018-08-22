@@ -76,3 +76,14 @@ h1 {
 	font-size: 4em;
 	text-align: center;
 }
+
+#upload {
+	margin: auto;
+	width: 50%;
+	padding: 2em;
+}
+
+#upload form {
+	width: 70%;
+	margin: auto;
+}
