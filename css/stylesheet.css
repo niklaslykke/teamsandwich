@@ -43,19 +43,6 @@ table {
 }
 
 
-/*Text Styling*/
-h1 {
-	font-size: 4em;
-	text-align: center;
-}
-
-h2{
-	font-size: 2em;
-	margin-bottom: .3em;
-}
-
-
-
 nav{
 	width: 25%;
 	margin: auto;
@@ -70,96 +57,39 @@ nav button{
 .flex-container {
  display: flex;
  flex-wrap: nowrap;
- background-color: #F3B802;
+ background-color: white;
 }
 
 .flex-container div {
- background-color: #8BCD32;
+ background-color: #f1f1f1;
  width: 30%;
  margin: auto;
  text-align: center;
  line-height: 1.4em;
- padding: .5em;
- border-width: medium;
- border-style: solid;
 }
 
 .flex-container div img {
 	max-width: 100%;
 }
 
+h1 {
+	font-size: 4em;
+	text-align: center;
+}
 
 #upload {
 	margin: auto;
 	width: 50%;
 	padding: 2em;
-	border-style: dotted;
-	border-color: black;
-	border-width: medium;
-	background-color: #F3B802;
 }
 
-#upload img {
-	width:100%;
-	margin: auto;
-	border-width: medium;
-	border-style: solid;
-}
-
-#upload h2 {
-	text-align: center;
-}
 #upload form {
-	padding: 1em;
 	width: 70%;
 	margin: auto;
-	border-width: medium;
-	border-style: solid;
 }
 
-/* moreinfo .html */
-.flex-sandwich {
-    display: flex;
-}
+.errortext {
+	text-align: center;
+	font-family: fantasy;
 
-.flex-left-sandwich,
-.flex-right-sandwich {
-    flex: 1;
-}
-
-.flex-right-sandwich {
-    flex-wrap: wrap;
-}
-
-.sandwich-border-box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    width: 100%;
-    margin: 20px 20px 10px 20px;
-    border-style: solid;
-    border-color: black;
-    border-width: 2px;
-}
-
-.sandwich-border-box h2 {
-    font-size: 40px;
-}
-
-.sandwich-border-box h3 {
-    font-size: 18px;
-}
-
-.recipe-box {
-    border-style: solid;
-    border-color: black;
-    border-width: 2px;
-    margin: 10px 20px 0 20px;
-    padding: 5px;
-    height: 150px;
-}
-
-.rating {
-    margin: 0 20px;
 }
