@@ -116,3 +116,50 @@ nav button{
 	border-width: medium;
 	border-style: solid;
 }
+
+/* moreinfo .html */
+.flex-sandwich {
+    display: flex;
+}
+
+.flex-left-sandwich,
+.flex-right-sandwich {
+    flex: 1;
+}
+
+.flex-right-sandwich {
+    flex-wrap: wrap;
+}
+
+.sandwich-border-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 100%;
+    margin: 20px 20px 10px 20px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+.sandwich-border-box h2 {
+    font-size: 40px;
+}
+
+.sandwich-border-box h3 {
+    font-size: 18px;
+}
+
+.recipe-box {
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    margin: 10px 20px 0 20px;
+    padding: 5px;
+    height: 150px;
+}
+
+.rating {
+    margin: 0 20px;
+}
